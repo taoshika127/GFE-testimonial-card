@@ -4,16 +4,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GreatFrontEnd Projects</title>
+    <title>Testimonial Card</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="src/output.css" />
 
-    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps.
       If you're not using Tailwind, you may delete the <script> -->
     <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -25,14 +25,31 @@
   </head>
   <body>
     <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
+    <div class="container flex justify-center">
+      <div class="card-container relative top-1/4">
+        <div class="title flex flex-row">
+          <div class="image w-1/8">
+            <img class="profil-img w-12 h-12" src="./img/profile-thumbnail.png" />
+          </div>
+          <div class="name-title w-7/8 pl-5">
+            <div class="name font-semibold text-lg text-justify text-neutral-900">Sarah Doleeeeeeeeeeeeewdfafdsdfs</div>
+            <div class="username font-normal text-sm text-neutral-600">@sarahdole</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="text max-h-30 font-normal text-base text-neutral-600">
+            I've been searching for high-quality abstract images for my design projects,
+      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding! I've been searching for high-quality abstract images for my design projects,
+      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Sarah Dole
       @sarahdole
-      I've been searching for high-quality abstract images for my design projects, 
-      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding! 
+      I've been searching for high-quality abstract images for my design projects,
+      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!
     -->
 
     <!-- Attribute this challenge to yourself! -->

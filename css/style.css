@@ -1,5 +1,9 @@
 /* Put any custom CSS styles here.  */
 /* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
@@ -28,4 +32,29 @@ body {
 .credits a {
   color: #000;
   font-weight: bold;
+}
+
+.container {
+  background: linear-gradient(#F9FAFB, #D2D6DB);
+  max-width: 100% !important;
+  height: 100vh;
+}
+
+.card-container {
+  width: 340px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px -1px rgb(0 0 0 / 0.10), 0px 1px 3px 0 rgb(0 0 0 / 0.10);
+}
+
+.name {
+  max-width: 228px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
